@@ -1,7 +1,5 @@
 package com.bettercloud.secret_santa.repository;
 
-import com.bettercloud.secret_santa.dto.FamilyList;
-import com.bettercloud.secret_santa.model.FamilyMember;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
@@ -19,8 +17,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 @Repository
 public class SecretSantaRepositoryImpl implements SecretSantaRepository {
